@@ -6,14 +6,108 @@
     <title>Tienda</title>
   </head>
   <body>
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                 header                                  -->
+    <!-- ----------------------------------------------------------------------- -->
     <header>
-      <!-- logo y navegacion -->
+      <!-- logo -->
+      <div class="div-logo">
+        <a class="logo" href="./index.html">PANDEO</a>
+      </div>
+
+      <!-- navegacion -->
+      <nav class="header-nav">
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./pages/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                  main                                   -->
+    <!-- ----------------------------------------------------------------------- -->
     <main>
-      <!-- contenido principal pagina -->
+      <section class="inicio">
+        <h1>Bienvenido a la tienda</h1>
+        <p class="parrafo">
+          Descubrí el verdadero sabor artesanal en cada bocado. Elaboramos
+          nuestros panes con masa madre y los ingredientes mas frescos para
+          llevar frescura, calidad y tradición directo a tu mesa todos los días.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="titulo-productos text-secondary">Nuestros productos</h2>
+
+        <!-- ----------------------- contenedor de tarjetas ------------------------ -->
+        <div class="contenedor-tarjetas">
+          <!-- articulo 1 -->
+          <article class="card">
+            <img src="./img/budin.jpg" alt="imagen de budin" width="300" />
+            <h3>Budin de limon</h3>
+            <p>
+              Budin artesanal super humedo con glaseado citrico y ralladura
+              fresca
+            </p>
+            <p class="precio">$5000</p>
+            <button type="button" class="btn">Agregar al carrito</button>
+          </article>
+
+          <!-- articulo 2 -->
+          <article class="card">
+            <img
+              src="./img/croissant.jpg"
+              alt="imagen de croissant"
+              width="300"
+            />
+            <h3>Croissant</h3>
+            <p>
+              Medialuna de holandre frances 100% de manteca, crocante por fuera.
+            </p>
+            <p class="precio">$5300</p>
+            <button type="button" class="btn">Agregar al carrito</button>
+          </article>
+
+          <!-- articulo 3 -->
+          <article class="card">
+            <img
+              src="./img/pancakes.jpg"
+              alt="imagen de pancakes"
+              width="300"
+            />
+            <h3>Pancake</h3>
+            <p>
+              Torre de panqueques americanos esponjosos con miel organica y
+              frutas.
+            </p>
+            <p class="precio">$8500</p>
+            <button type="button" class="btn">Agregar al carrito</button>
+          </article>
+
+          <!-- articulo 4 -->
+          <article class="card">
+            <img src="./img/pan.jpg" alt="imagen de pan casero" width="300" />
+            <h3>Pan casero</h3>
+            <p>Pan de campo de masa madre con 48 hs de fermentación lenta.</p>
+            <p class="precio">$7000</p>
+            <button type="button" class="btn">Agregar al carrito</button>
+          </article>
+        </div>
+      </section>
     </main>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                 footer                                  -->
+    <!-- ----------------------------------------------------------------------- -->
     <footer>
-      <!-- copyright y redes sociales -->
+      <p>&copy;2026 - sitio web - PANDEO</p>
+      <nav>
+        <ul class="footer-list">
+          <li><img src="./img/whatsapp.png" alt="logo-whattsapp" /></li>
+          <li><img src="./img/instagram.png" alt="logo-instagram" /></li>
+        </ul>
+      </nav>
     </footer>
   </body>
 </html>
