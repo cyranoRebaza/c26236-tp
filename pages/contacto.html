@@ -5,5 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
   </head>
-  <body></body>
+  <body>
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                 header                                  -->
+    <!-- ----------------------------------------------------------------------- -->
+    <header>
+      <!-- logo -->
+      <div class="div-logo">
+        <a class="logo" href="../index.html">PANDEO</a>
+      </div>
+
+      <!-- navegacion -->
+      <nav class="header-nav">
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                  main                                   -->
+    <!-- ----------------------------------------------------------------------- -->
+    <main>
+      <section class="contacto">
+        <h1 class="titulo-contacto text-secondary"></h1>
+
+        <!-- ----------------------------- formulario ------------------------------ -->
+        <form action="" method="get" class="form-contacto">
+          <!-- email -->
+          <div class="grupo-input">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+
+          <!-- text area -->
+          <div class="grupo-input">
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje" required></textarea>
+          </div>
+
+          <!-- button -->
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                 footer                                  -->
+    <!-- ----------------------------------------------------------------------- -->
+    <footer>
+      <p>&copy;2026 - sitio web - PANDEO</p>
+      <nav>
+        <ul class="footer-list">
+          <li><img src="../img/whatsapp.png" alt="logo-whattsapp" /></li>
+          <li><img src="../img/instagram.png" alt="logo-instagram" /></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>
