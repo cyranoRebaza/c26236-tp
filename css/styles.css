@@ -1,0 +1,109 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #1e2e24;
+  background-color: #f4f7f5;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+
+  display: flex;
+  flex-direction: column;
+
+  min-width: 100vh;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 HOME - HEADER                                */
+/* -------------------------------------------------------------------------- */
+header {
+  background: #1e2e24;
+  color: #f4f7f5;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div-logo {
+  margin-left: 2.4rem;
+  font-weight: bold;
+}
+
+.logo {
+  color: inherit; /* hereda color padre */
+  font-size: 3rem;
+  text-decoration: none;
+
+  display: inline-block; /* comporta en bloque */
+  padding: 2rem;
+}
+
+.header-nav {
+  margin-right: 2rem;
+}
+
+.header-nav ul {
+  list-style: none;
+
+  display: flex;
+  gap: 1rem;
+}
+
+.header-nav a {
+  color: inherit;
+  font-size: 3rem;
+  text-decoration: none;
+
+  display: inline-block;
+  padding: 2rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  HOME - MAIN                                 */
+/* -------------------------------------------------------------------------- */
+main {
+  background: blueviolet;
+  flex: 1; /* toma todo el espacio */
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                HOME - FOOTER                               */
+/* -------------------------------------------------------------------------- */
+footer {
+  color: #f4f7f5;
+  background: #1e2e24;
+  width: 100%;
+
+  padding: 1rem 4 rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .footer-list {
+  list-style: none;
+
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-list li {
+  padding: 1rem;
+}
+
+.footer-list img {
+  width: 5rem;
+  padding: 0.5rem;
+}
