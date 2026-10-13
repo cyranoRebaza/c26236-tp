@@ -22,6 +22,43 @@ body {
   min-width: 100vh;
 }
 
+.btn {
+  font-size: 1.6rem;
+  font-weight: bold;
+
+  padding: 1.6rem;
+
+  border: none;
+  border-radius: 1rem;
+
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #e0b45c;
+}
+
+/* --------------------------------- colores -------------------------------- */
+.bg-primary {
+  background-color: #f4f7f5;
+}
+
+.bg-secondary {
+  background-color: #e5a93c;
+}
+
+.text-link {
+  color: #f4f7f5;
+}
+
+.text-dark {
+  color: #1e2e24;
+}
+
+.text-secondary {
+  color: #e5a93c;
+}
+
 /* -------------------------------------------------------------------------- */
 /*                                 HOME - HEADER                                */
 /* -------------------------------------------------------------------------- */
@@ -73,8 +110,91 @@ header {
 /*                                  HOME - MAIN                                 */
 /* -------------------------------------------------------------------------- */
 main {
-  background: blueviolet;
+  /* background: blueviolet; */
+  width: 80%;
+  margin: auto;
+  padding-bottom: 2rem;
+
   flex: 1; /* toma todo el espacio */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* acomoda los hijos abajo */
+}
+
+.inicio h1 {
+  width: 100%;
+  text-align: center;
+  margin: 3rem 0;
+
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.15; /* interlineado */
+}
+
+.parrafo {
+  width: 80%;
+  text-align: center;
+  font-size: 2rem;
+  padding: 3rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+
+  text-align: center;
+  margin: 3rem 0;
+}
+
+/* --------------------------- contenedor tarjetas -------------------------- */
+.contenedor-tarjetas {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 40rem;
+  border-radius: 1rem;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.card img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover; /* redimensiona la imagen rellenar su contenedor sin deformarse */
+}
+
+.card p {
+  width: 85%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.card .precio {
+  font-weight: 800;
+  font-size: 2.2rem;
+
+  color: #1e2e24;
+  padding: 0;
 }
 
 /* -------------------------------------------------------------------------- */
