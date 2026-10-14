@@ -316,3 +316,52 @@ footer .footer-list {
   font-weight: bold;
   font-size: 1.6;
 }
+
+/* -------------------------------------------------------------------------- */
+/*                                MEDIA QUERIES                               */
+/* -------------------------------------------------------------------------- */
+/* ------------------ tABLETAS (pantallas de 768px o menos) ----------------- */
+@media (max-width: 768px) {
+  header,
+  footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+  }
+
+  .header-nav,
+  .div-logo {
+    margin: 0;
+  }
+
+  .header-nav ul {
+    gap: 1rem;
+  }
+
+  main {
+    width: 90%;
+  }
+}
+
+/* ----------------- CELULARES (pantallas de 480px o menos) ----------------- */
+@media (max-width: 480px) {
+  .logo,
+  .header-nav a {
+    font-size: 2.6rem;
+    padding: 1rem;
+  }
+
+  .inicio h1 {
+    font-size: 2.6rem;
+  }
+
+  .parrafo {
+    width: 100%;
+    font-size: 1.6rem;
+  }
+
+  .card {
+    width: 100;
+  }
+}
