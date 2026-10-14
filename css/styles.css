@@ -292,3 +292,27 @@ footer .footer-list {
 /* -------------------------------------------------------------------------- */
 /*                              PAGINA RESPUESTA                              */
 /* -------------------------------------------------------------------------- */
+.respuesta {
+  margin: 6rem 0;
+}
+
+.respuesta .card {
+  padding: 2rem;
+}
+
+.respuesta .card h3 {
+  color: inherit;
+  font-weight: 800;
+}
+
+.respuesta .card p {
+  color: inherit;
+}
+
+.div-volver a {
+  color: #1e2e24;
+  text-decoration: underline;
+
+  font-weight: bold;
+  font-size: 1.6;
+}
